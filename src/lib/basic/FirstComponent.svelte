@@ -1,5 +1,5 @@
 <script>
-const name = 'Svelte';
+  const name = 'Svelte';
 </script>
 
 <div>
