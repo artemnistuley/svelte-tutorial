@@ -1,7 +1,9 @@
-<script></script>
+<script>
+  import FirstComponent from "./lib/basic/FirstComponent.svelte";
+</script>
 
 <main>
-  Svelte app
+  <FirstComponent />
 </main>
 
 <style></style>
