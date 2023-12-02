@@ -5,6 +5,7 @@
   import Nested from "./lib/basic/Nested.svelte";
   import HtmlTag from "./lib/basic/HtmlTag.svelte";
   import ReactivityAssignment from "./lib/basic/ReactivityAssignment.svelte";
+  import ReactivityDeclaration from "./lib/basic/ReactivityDeclaration.svelte";
 </script>
 
 <main>
@@ -18,7 +19,9 @@
 
   <!-- <HtmlTag /> -->
 
-  <ReactivityAssignment />
+  <!-- <ReactivityAssignment /> -->
+
+  <ReactivityDeclaration />
 </main>
 
 <style></style>
