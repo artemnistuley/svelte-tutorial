@@ -10,6 +10,7 @@
   import ReactivityObjects from "./lib/basic/ReactivityObjects.svelte";
   import DeclaringProps from "./lib/basic/DeclaringProps.svelte";
   import SpreadProps from "./lib/basic/SpreadProps.svelte";
+  import IfElseBlocks from "./lib/basic/IfElseBlocks.svelte";
 </script>
 
 <main>
@@ -33,7 +34,9 @@
 
   <!-- <DeclaringProps /> -->
 
-  <SpreadProps />
+  <!-- <SpreadProps /> -->
+
+  <IfElseBlocks />
 </main>
 
 <style></style>
