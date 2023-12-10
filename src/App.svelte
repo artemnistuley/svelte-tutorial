@@ -6,6 +6,7 @@
   import HtmlTag from "./lib/basic/HtmlTag.svelte";
   import ReactivityAssignment from "./lib/basic/ReactivityAssignment.svelte";
   import ReactivityDeclaration from "./lib/basic/ReactivityDeclaration.svelte";
+  import ReactivityStatement from "./lib/basic/ReactivityStatement.svelte";
 </script>
 
 <main>
@@ -21,7 +22,9 @@
 
   <!-- <ReactivityAssignment /> -->
 
-  <ReactivityDeclaration />
+  <!-- <ReactivityDeclaration /> -->
+
+  <ReactivityStatement />
 </main>
 
 <style></style>
