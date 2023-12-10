@@ -8,6 +8,7 @@
   import ReactivityDeclaration from "./lib/basic/ReactivityDeclaration.svelte";
   import ReactivityStatement from "./lib/basic/ReactivityStatement.svelte";
   import ReactivityObjects from "./lib/basic/ReactivityObjects.svelte";
+  import DeclaringProps from "./lib/basic/DeclaringProps.svelte";
 </script>
 
 <main>
@@ -27,7 +28,9 @@
 
   <!-- <ReactivityStatement /> -->
 
-  <ReactivityObjects />
+  <!-- <ReactivityObjects /> -->
+
+  <DeclaringProps />
 </main>
 
 <style></style>
