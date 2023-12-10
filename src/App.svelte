@@ -12,6 +12,7 @@
   import SpreadProps from "./lib/basic/SpreadProps.svelte";
   import IfElseBlocks from "./lib/basic/IfElseBlocks.svelte";
   import EachBlocks from "./lib/basic/EachBlocks.svelte";
+  import KeyedEachBlock from "./lib/basic/KeyedEachBlock.svelte";
 </script>
 
 <main>
@@ -39,7 +40,9 @@
 
   <!-- <IfElseBlocks /> -->
 
-  <EachBlocks />
+  <!-- <EachBlocks /> -->
+
+  <KeyedEachBlock />
 </main>
 
 <style></style>
