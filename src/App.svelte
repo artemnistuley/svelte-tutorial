@@ -11,6 +11,7 @@
   import DeclaringProps from "./lib/basic/DeclaringProps.svelte";
   import SpreadProps from "./lib/basic/SpreadProps.svelte";
   import IfElseBlocks from "./lib/basic/IfElseBlocks.svelte";
+  import EachBlocks from "./lib/basic/EachBlocks.svelte";
 </script>
 
 <main>
@@ -36,7 +37,9 @@
 
   <!-- <SpreadProps /> -->
 
-  <IfElseBlocks />
+  <!-- <IfElseBlocks /> -->
+
+  <EachBlocks />
 </main>
 
 <style></style>
