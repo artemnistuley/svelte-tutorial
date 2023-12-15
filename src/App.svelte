@@ -13,6 +13,7 @@
   import IfElseBlocks from "./lib/basic/logic/IfElseBlocks.svelte";
   import EachBlocks from "./lib/basic/logic/EachBlocks.svelte";
   import KeyedEachBlock from "./lib/basic/logic/KeyedEachBlock.svelte";
+  import AwaitBlocks from "./lib/basic/logic/AwaitBlocks.svelte";
 </script>
 
 <main>
@@ -42,7 +43,9 @@
 
   <!-- <EachBlocks /> -->
 
-  <KeyedEachBlock />
+  <!-- <KeyedEachBlock /> -->
+
+  <AwaitBlocks />
 </main>
 
 <style></style>
