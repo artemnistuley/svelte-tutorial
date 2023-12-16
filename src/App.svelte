@@ -20,6 +20,7 @@
   import ComponentEvent from "./lib/basic/events/ComponentEvent.svelte";
   import EventForwarding from "./lib/basic/events/EventForwarding.svelte";
   import DomEventForwaring from "./lib/basic/events/DomEventForwaring.svelte";
+  import TextInput from "./lib/basic/bindings/TextInput.svelte";
 </script>
 
 <main>
@@ -63,7 +64,9 @@
 
   <!-- <EventForwarding /> -->
 
-  <DomEventForwaring />
+  <!-- <DomEventForwaring /> -->
+
+  <TextInput />
 </main>
 
 <style></style>
