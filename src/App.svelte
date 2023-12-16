@@ -19,6 +19,7 @@
   import EventModifier from "./lib/basic/events/EventModifier.svelte";
   import ComponentEvent from "./lib/basic/events/ComponentEvent.svelte";
   import EventForwarding from "./lib/basic/events/EventForwarding.svelte";
+  import DomEventForwaring from "./lib/basic/events/DomEventForwaring.svelte";
 </script>
 
 <main>
@@ -60,7 +61,9 @@
 
   <!-- <ComponentEvent /> -->
 
-  <EventForwarding />
+  <!-- <EventForwarding /> -->
+
+  <DomEventForwaring />
 </main>
 
 <style></style>
