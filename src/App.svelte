@@ -18,6 +18,7 @@
   import InlineHandler from "./lib/basic/events/InlineHandler.svelte";
   import EventModifier from "./lib/basic/events/EventModifier.svelte";
   import ComponentEvent from "./lib/basic/events/ComponentEvent.svelte";
+  import EventForwarding from "./lib/basic/events/EventForwarding.svelte";
 </script>
 
 <main>
@@ -57,7 +58,9 @@
 
   <!-- <EventModifier /> -->
 
-  <ComponentEvent />
+  <!-- <ComponentEvent /> -->
+
+  <EventForwarding />
 </main>
 
 <style></style>
