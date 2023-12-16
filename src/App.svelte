@@ -14,6 +14,7 @@
   import EachBlocks from "./lib/basic/logic/EachBlocks.svelte";
   import KeyedEachBlock from "./lib/basic/logic/KeyedEachBlock.svelte";
   import AwaitBlocks from "./lib/basic/logic/AwaitBlocks.svelte";
+  import DomEvent from "./lib/basic/events/DomEvent.svelte";
 </script>
 
 <main>
@@ -45,7 +46,9 @@
 
   <!-- <KeyedEachBlock /> -->
 
-  <AwaitBlocks />
+  <!-- <AwaitBlocks /> -->
+
+  <DomEvent />
 </main>
 
 <style></style>
