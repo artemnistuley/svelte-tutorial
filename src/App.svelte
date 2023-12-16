@@ -17,6 +17,7 @@
   import DomEvent from "./lib/basic/events/DomEvent.svelte";
   import InlineHandler from "./lib/basic/events/InlineHandler.svelte";
   import EventModifier from "./lib/basic/events/EventModifier.svelte";
+  import ComponentEvent from "./lib/basic/events/ComponentEvent.svelte";
 </script>
 
 <main>
@@ -54,7 +55,9 @@
 
   <!-- <InlineHandler /> -->
 
-  <EventModifier />
+  <!-- <EventModifier /> -->
+
+  <ComponentEvent />
 </main>
 
 <style></style>
