@@ -16,6 +16,7 @@
   import AwaitBlocks from "./lib/basic/logic/AwaitBlocks.svelte";
   import DomEvent from "./lib/basic/events/DomEvent.svelte";
   import InlineHandler from "./lib/basic/events/InlineHandler.svelte";
+  import EventModifier from "./lib/basic/events/EventModifier.svelte";
 </script>
 
 <main>
@@ -51,7 +52,9 @@
 
   <!-- <DomEvent /> -->
 
-  <InlineHandler />
+  <!-- <InlineHandler /> -->
+
+  <EventModifier />
 </main>
 
 <style></style>
