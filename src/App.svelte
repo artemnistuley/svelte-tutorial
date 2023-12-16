@@ -15,6 +15,7 @@
   import KeyedEachBlock from "./lib/basic/logic/KeyedEachBlock.svelte";
   import AwaitBlocks from "./lib/basic/logic/AwaitBlocks.svelte";
   import DomEvent from "./lib/basic/events/DomEvent.svelte";
+  import InlineHandler from "./lib/basic/events/InlineHandler.svelte";
 </script>
 
 <main>
@@ -48,7 +49,9 @@
 
   <!-- <AwaitBlocks /> -->
 
-  <DomEvent />
+  <!-- <DomEvent /> -->
+
+  <InlineHandler />
 </main>
 
 <style></style>
