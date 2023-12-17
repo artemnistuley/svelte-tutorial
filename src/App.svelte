@@ -21,6 +21,7 @@
   import EventForwarding from "./lib/basic/events/EventForwarding.svelte";
   import DomEventForwaring from "./lib/basic/events/DomEventForwaring.svelte";
   import TextInput from "./lib/basic/bindings/TextInput.svelte";
+  import NumericInput from "./lib/basic/bindings/NumericInput.svelte";
 </script>
 
 <main>
@@ -66,7 +67,9 @@
 
   <!-- <DomEventForwaring /> -->
 
-  <TextInput />
+  <!-- <TextInput /> -->
+  
+  <NumericInput />
 </main>
 
 <style></style>
