@@ -26,6 +26,7 @@
   import SelectBinding from "./lib/basic/bindings/SelectBinding.svelte";
   import GroupInputs from "./lib/basic/bindings/GroupInputs.svelte";
   import MultipleSelect from "./lib/basic/bindings/MultipleSelect.svelte";
+  import TextareaInput from "./lib/basic/bindings/TextareaInput.svelte";
 </script>
 
 <main>
@@ -55,7 +56,8 @@
   <!-- <CheckboxInput /> -->
   <!-- <SelectBinding /> -->
   <!-- <GroupInputs /> -->
-  <MultipleSelect />
+  <!-- <MultipleSelect /> -->
+  <TextareaInput />
 </main>
 
 <style></style>
