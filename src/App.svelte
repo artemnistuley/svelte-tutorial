@@ -25,6 +25,7 @@
   import CheckboxInput from "./lib/basic/bindings/CheckboxInput.svelte";
   import SelectBinding from "./lib/basic/bindings/SelectBinding.svelte";
   import GroupInputs from "./lib/basic/bindings/GroupInputs.svelte";
+  import MultipleSelect from "./lib/basic/bindings/MultipleSelect.svelte";
 </script>
 
 <main>
@@ -53,7 +54,8 @@
   <!-- <NumericInput /> -->
   <!-- <CheckboxInput /> -->
   <!-- <SelectBinding /> -->
-  <GroupInputs />
+  <!-- <GroupInputs /> -->
+  <MultipleSelect />
 </main>
 
 <style></style>
