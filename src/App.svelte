@@ -23,56 +23,35 @@
   import TextInput from "./lib/basic/bindings/TextInput.svelte";
   import NumericInput from "./lib/basic/bindings/NumericInput.svelte";
   import CheckboxInput from "./lib/basic/bindings/CheckboxInput.svelte";
+  import SelectBinding from "./lib/basic/bindings/SelectBinding.svelte";
 </script>
 
 <main>
   <!-- <FirstComponent /> -->
-
   <!-- <DynamicAttr /> -->
-
   <!-- <Styling /> -->
-
   <!-- <Nested /> -->
-
   <!-- <HtmlTag /> -->
-
   <!-- <ReactivityAssignment /> -->
-
   <!-- <ReactivityDeclaration /> -->
-
   <!-- <ReactivityStatement /> -->
-
   <!-- <ReactivityObjects /> -->
-
   <!-- <DeclaringProps /> -->
-
   <!-- <SpreadProps /> -->
-
   <!-- <IfElseBlocks /> -->
-
   <!-- <EachBlocks /> -->
-
   <!-- <KeyedEachBlock /> -->
-
   <!-- <AwaitBlocks /> -->
-
   <!-- <DomEvent /> -->
-
   <!-- <InlineHandler /> -->
-
   <!-- <EventModifier /> -->
-
   <!-- <ComponentEvent /> -->
-
   <!-- <EventForwarding /> -->
-
   <!-- <DomEventForwaring /> -->
-
   <!-- <TextInput /> -->
-  
   <!-- <NumericInput /> -->
-
-  <CheckboxInput />
+  <!-- <CheckboxInput /> -->
+  <SelectBinding />
 </main>
 
 <style></style>
