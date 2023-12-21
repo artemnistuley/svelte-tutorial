@@ -29,6 +29,7 @@
   import TextareaInput from "./lib/basic/bindings/TextareaInput.svelte";
   import OnMount from "./lib/basic/lifecycle/OnMount.svelte";
   import UpdateFunctions from "./lib/basic/lifecycle/UpdateFunctions.svelte";
+  import Tick from "./lib/basic/lifecycle/Tick.svelte";
 </script>
 
 <main>
@@ -61,7 +62,8 @@
   <!-- <MultipleSelect /> -->
   <!-- <TextareaInput /> -->
   <!-- <OnMount /> -->
-  <UpdateFunctions />
+  <!-- <UpdateFunctions /> -->
+  <Tick />
 </main>
 
 <style></style>
