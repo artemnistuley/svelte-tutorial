@@ -27,6 +27,7 @@
   import GroupInputs from "./lib/basic/bindings/GroupInputs.svelte";
   import MultipleSelect from "./lib/basic/bindings/MultipleSelect.svelte";
   import TextareaInput from "./lib/basic/bindings/TextareaInput.svelte";
+  import OnMount from "./lib/basic/lifecycle/OnMount.svelte";
 </script>
 
 <main>
@@ -57,7 +58,8 @@
   <!-- <SelectBinding /> -->
   <!-- <GroupInputs /> -->
   <!-- <MultipleSelect /> -->
-  <TextareaInput />
+  <!-- <TextareaInput /> -->
+  <OnMount />
 </main>
 
 <style></style>
