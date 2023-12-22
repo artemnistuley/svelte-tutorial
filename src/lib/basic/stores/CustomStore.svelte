@@ -1,5 +1,5 @@
 <script>
-	import { customCount as count } from './stores.js';
+  import { customCount as count } from './stores.js';
 </script>
 
 <h1>The count is {$count}</h1>
