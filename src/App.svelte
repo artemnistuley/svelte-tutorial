@@ -32,6 +32,7 @@
   import Tick from "./lib/basic/lifecycle/Tick.svelte";
   import WritableStore from "./lib/basic/stores/WritableStore.svelte";
   import ReadableStore from "./lib/basic/stores/ReadableStore.svelte";
+  import DerivedStore from "./lib/basic/stores/DerivedStore.svelte";
 </script>
 
 <main>
@@ -67,7 +68,8 @@
   <!-- <UpdateFunctions /> -->
   <!-- <Tick /> -->
   <!-- <WritableStore /> -->
-  <ReadableStore />
+  <!-- <ReadableStore /> -->
+  <DerivedStore />
 </main>
 
 <style></style>
