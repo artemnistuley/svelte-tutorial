@@ -31,6 +31,7 @@
   import UpdateFunctions from "./lib/basic/lifecycle/UpdateFunctions.svelte";
   import Tick from "./lib/basic/lifecycle/Tick.svelte";
   import WritableStore from "./lib/basic/stores/WritableStore.svelte";
+  import ReadableStore from "./lib/basic/stores/ReadableStore.svelte";
 </script>
 
 <main>
@@ -65,7 +66,8 @@
   <!-- <OnMount /> -->
   <!-- <UpdateFunctions /> -->
   <!-- <Tick /> -->
-  <WritableStore />
+  <!-- <WritableStore /> -->
+  <ReadableStore />
 </main>
 
 <style></style>
