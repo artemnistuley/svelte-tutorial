@@ -33,6 +33,8 @@
   import WritableStore from "./lib/basic/stores/WritableStore.svelte";
   import ReadableStore from "./lib/basic/stores/ReadableStore.svelte";
   import DerivedStore from "./lib/basic/stores/DerivedStore.svelte";
+  import CustomStore from "./lib/basic/stores/CustomStore.svelte";
+  import StoreBinding from "./lib/basic/stores/StoreBinding.svelte";
 </script>
 
 <main>
@@ -69,7 +71,9 @@
   <!-- <Tick /> -->
   <!-- <WritableStore /> -->
   <!-- <ReadableStore /> -->
-  <DerivedStore />
+  <!-- <DerivedStore /> -->
+  <!-- <CustomStore /> -->
+  <StoreBinding />
 </main>
 
 <style></style>
