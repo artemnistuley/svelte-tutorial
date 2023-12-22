@@ -30,6 +30,7 @@
   import OnMount from "./lib/basic/lifecycle/OnMount.svelte";
   import UpdateFunctions from "./lib/basic/lifecycle/UpdateFunctions.svelte";
   import Tick from "./lib/basic/lifecycle/Tick.svelte";
+  import WritableStore from "./lib/basic/stores/WritableStore.svelte";
 </script>
 
 <main>
@@ -63,7 +64,8 @@
   <!-- <TextareaInput /> -->
   <!-- <OnMount /> -->
   <!-- <UpdateFunctions /> -->
-  <Tick />
+  <!-- <Tick /> -->
+  <WritableStore />
 </main>
 
 <style></style>
